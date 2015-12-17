@@ -46,6 +46,7 @@ plot(steps~interval,data=stepsInterval,type="l")
 ```
 
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png) 
+
 Which 5-minute interval, on average across all the days in the dataset,
 contains the maximum number of steps?
 
@@ -59,7 +60,7 @@ It is the 835th interval.
 
 
 ```r
-miss_rows = sum(is.na(activity$steps))
+miss_rows = sum(is.na(activity))
 ```
 Total 2304 rows are missing.
 
